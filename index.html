@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Cpyler</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div id="header">
+        <img src="./images/favicon.png" alt="" id="logo"><a href="#" id="name">CPyler</a> <div id="right"><button id="menu" onclick="toggleMenu()"><img src="./images/menu.png" alt="" id="menuimg"></button></div>
+    </div>
+    <div id="splash"></div>
+    <div id="body">
+        <div id="banner1" class="banner"><span id="h1" class="grad"></span>
+            <br><button id="b1" class="button" onclick="scrollDown(1)">Tell Me how?</button></div>
+
+
+            <div id="banner2" class="banner">
+               <br><br><br><br> Works On<br><br><br>
+            <div id="gridview1">
+                <button class="gridbut" id="f1"><img src="images/win.png" alt="" class="logo"></button>
+                <button class="gridbut" id="f2"><img src="images/mac.webp" alt="" class="logo"></button>
+                <button class="gridbut" id="f3"><img src="images/linux.png" alt="" class="logo"></button>
+            </div>
+            </div>
+    <div id="banner3" class="banner">
+        <button id="moveimg" title="Press this for 2 seconds"></button>
+        <span id="dialogbox">
+            Its open-source on Github. 
+        </span>
+   </div>
+   <div id="banner4" class="banner"><h1 id="xh">This is how its syntax looks.</h1>
+    <img src="./images/editor.png" id="window1">
+
+   </img>
+   </div>
+   <div id="banner5" class="banner">
+    <div id="terminal">
+    Click to see how to run a heckh Program
+    </div>
+   </div>
+   <div id="banner6" class="banner">
+    <h1 id="words">Help us Improve this project by forking it on Github.</h1><br><br>
+        <button class="b1" id="x4">See Now</button>
+    </div>
+    </div>
+    <div id="menucontainer">
+        <button class="mb" onclick="window.open('#banner1','_self');toggleMenu()">Home</button>
+        <button class="mb" onclick="window.open('#banner2','_self');toggleMenu()">Compatibility</button>
+        <button class="mb" onclick="window.open('#banner3','_self');toggleMenu()">Open-Source</button>
+        <button class="mb" onclick="window.open('#banner4','_self');toggleMenu()">Syntax</button>
+        <button class="mb" onclick="window.open('#banner5','_self');toggleMenu()">How to run ?</button>
+        <button class="mb" onclick="window.open('#banner6','_self');toggleMenu()">Github</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
